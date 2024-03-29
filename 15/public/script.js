@@ -1,7 +1,7 @@
 // Emma Hubert
 const getCrafts= async () => {
     try {
-      return (await fetch("https://nodeassignments-1.onrender.com/api/crafts/")).json();
+      return (await fetch("https://nodeassignments-4.onrender.com/api/crafts/")).json();
     } catch (error) {
       console.log(error);
     }
